@@ -1,0 +1,476 @@
+{
+  "bike": {
+    "gbdt": {
+      "random": {
+        "n_calibration": 1737,
+        "n_test": 6953,
+        "mae_over_iqr": 0.2503403438447703,
+        "raw_band_coverage": 0.8151876887674385,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.9088163382712499,
+            "coverage_low": 0.8727583477259643,
+            "coverage_high": 0.9417134427173286,
+            "worst_month": 0.8305555555555556,
+            "width": 1.3676602150537631
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.8934272975693945,
+            "coverage_low": 0.8708909038572251,
+            "coverage_high": 0.9163932066781807,
+            "worst_month": 0.8236111111111111,
+            "width": 1.074398858928381
+          }
+        }
+      },
+      "temporal": {
+        "n_calibration": 1737,
+        "n_test": 6953,
+        "mae_over_iqr": 0.5099292448993162,
+        "raw_band_coverage": 0.36818639436214584,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.8275564504530418,
+            "coverage_low": 0.7949014104778354,
+            "coverage_high": 0.8591105354058721,
+            "worst_month": 0.7402777777777778,
+            "width": 1.9487365591397858
+          },
+          "rolling": {
+            "coverage": 0.9016251977563642,
+            "coverage_low": 0.8645617443868739,
+            "coverage_high": 0.9351036269430052,
+            "worst_month": 0.7833333333333333,
+            "width": 2.538627888480103
+          },
+          "aci": {
+            "coverage": 0.9029196030490436,
+            "coverage_low": 0.8926309729418538,
+            "coverage_high": 0.913068508923431,
+            "worst_month": 0.8763888888888889,
+            "width": 2.5176234301276312
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.8307205522795915,
+            "coverage_low": 0.7957649683362119,
+            "coverage_high": 0.8675985895221646,
+            "worst_month": 0.7402777777777778,
+            "width": 2.04517021793022
+          },
+          "rolling": {
+            "coverage": 0.9027757802387458,
+            "coverage_low": 0.8710348301669544,
+            "coverage_high": 0.9336679620034543,
+            "worst_month": 0.8069444444444445,
+            "width": 2.5595084704676094
+          },
+          "aci": {
+            "coverage": 0.903207248669639,
+            "coverage_low": 0.8936348589522164,
+            "coverage_high": 0.9130721070811743,
+            "worst_month": 0.8833333333333333,
+            "width": 2.5176208299504044
+          }
+        }
+      }
+    },
+    "tabpfn": {
+      "random": {
+        "n_calibration": 1737,
+        "n_test": 6953,
+        "mae_over_iqr": 0.22985799995051256,
+        "raw_band_coverage": 0.9009060837048756,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.902200488997555,
+            "coverage_low": 0.8832757628094415,
+            "coverage_high": 0.9261729994242949,
+            "worst_month": 0.8680555555555556,
+            "width": 1.175623655913979
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.9047892995829139,
+            "coverage_low": 0.8960852043753599,
+            "coverage_high": 0.9149467472654002,
+            "worst_month": 0.8680555555555556,
+            "width": 0.8581866178287705
+          }
+        }
+      },
+      "temporal": {
+        "n_calibration": 1737,
+        "n_test": 6953,
+        "mae_over_iqr": 0.5015994467461248,
+        "raw_band_coverage": 0.2782971379260751,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.8429454911548971,
+            "coverage_low": 0.8049798503166379,
+            "coverage_high": 0.8780980138169258,
+            "worst_month": 0.7472222222222222,
+            "width": 1.9482956989247304
+          },
+          "rolling": {
+            "coverage": 0.903207248669639,
+            "coverage_low": 0.8674402705814623,
+            "coverage_high": 0.9361219055843407,
+            "worst_month": 0.7916666666666666,
+            "width": 2.4412989415878346
+          },
+          "aci": {
+            "coverage": 0.9040701855314253,
+            "coverage_low": 0.894498416810593,
+            "coverage_high": 0.9137881404720782,
+            "worst_month": 0.8833333333333333,
+            "width": 2.399970110681705
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.8763123831439666,
+            "coverage_low": 0.8410837651122626,
+            "coverage_high": 0.9094739493379389,
+            "worst_month": 0.7847222222222222,
+            "width": 1.9249412023741588
+          },
+          "rolling": {
+            "coverage": 0.9069466417373796,
+            "coverage_low": 0.8742084052964882,
+            "coverage_high": 0.9394142199194014,
+            "worst_month": 0.8222222222222222,
+            "width": 2.187649627761823
+          },
+          "aci": {
+            "coverage": 0.905220768013807,
+            "coverage_low": 0.895077720207254,
+            "coverage_high": 0.916090961427749,
+            "worst_month": 0.8861111111111111,
+            "width": 2.11990170105269
+          }
+        }
+      }
+    }
+  },
+  "metro": {
+    "gbdt": {
+      "random": {
+        "n_calibration": 4057,
+        "n_test": 16231,
+        "mae_over_iqr": 0.07459314192338837,
+        "raw_band_coverage": 0.8221304910356725,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.9049966114225864,
+            "coverage_low": 0.8906438879980265,
+            "coverage_high": 0.9198840508202788,
+            "worst_month": 0.8416666666666667,
+            "width": 0.3336264774044032
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.9025938019838581,
+            "coverage_low": 0.8932404095226348,
+            "coverage_high": 0.912977981990872,
+            "worst_month": 0.8625,
+            "width": 0.39984247347089774
+          }
+        }
+      },
+      "temporal": {
+        "n_calibration": 4057,
+        "n_test": 16231,
+        "mae_over_iqr": 0.07306170629275924,
+        "raw_band_coverage": 0.8166471566754975,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.9423325734705194,
+            "coverage_low": 0.9243801652892562,
+            "coverage_high": 0.9578805353398296,
+            "worst_month": 0.8402777777777778,
+            "width": 0.43887821552723083
+          },
+          "rolling": {
+            "coverage": 0.9088164623251802,
+            "coverage_low": 0.8884821758973724,
+            "coverage_high": 0.9264832860490931,
+            "worst_month": 0.7847222222222222,
+            "width": 0.3438288346020837
+          },
+          "aci": {
+            "coverage": 0.902655412482287,
+            "coverage_low": 0.8948408782533614,
+            "coverage_high": 0.9105109781670163,
+            "worst_month": 0.8513888888888889,
+            "width": 0.3376904901732683
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.9538537366767297,
+            "coverage_low": 0.9444291969902552,
+            "coverage_high": 0.9628099173553717,
+            "worst_month": 0.9097222222222222,
+            "width": 0.5125813867206029
+          },
+          "rolling": {
+            "coverage": 0.9109728297701929,
+            "coverage_low": 0.8983501911927964,
+            "coverage_high": 0.9240856667077835,
+            "worst_month": 0.8402777777777778,
+            "width": 0.44078833019878916
+          },
+          "aci": {
+            "coverage": 0.9014848130121372,
+            "coverage_low": 0.8959541137288763,
+            "coverage_high": 0.9071805230048109,
+            "worst_month": 0.8666666666666667,
+            "width": 0.43231004219176883
+          }
+        }
+      }
+    },
+    "tabpfn": {
+      "random": {
+        "n_calibration": 4057,
+        "n_test": 16231,
+        "mae_over_iqr": 0.073021493573768,
+        "raw_band_coverage": 0.8773951081264247,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.9065984843817386,
+            "coverage_low": 0.8907672381892192,
+            "coverage_high": 0.9224142716171211,
+            "worst_month": 0.8347222222222223,
+            "width": 0.3306646581691771
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.9048733904257286,
+            "coverage_low": 0.8900934377698287,
+            "coverage_high": 0.9186505489083509,
+            "worst_month": 0.8277777777777777,
+            "width": 0.3059310152103684
+          }
+        }
+      },
+      "temporal": {
+        "n_calibration": 4057,
+        "n_test": 16231,
+        "mae_over_iqr": 0.07219755611392104,
+        "raw_band_coverage": 0.8488694473538291,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.9422709629720905,
+            "coverage_low": 0.9243770815344764,
+            "coverage_high": 0.9572622425064762,
+            "worst_month": 0.8416666666666667,
+            "width": 0.44274009269988385
+          },
+          "rolling": {
+            "coverage": 0.9079539153471752,
+            "coverage_low": 0.8866905143702972,
+            "coverage_high": 0.9261749105711115,
+            "worst_month": 0.7875,
+            "width": 0.3431184836635444
+          },
+          "aci": {
+            "coverage": 0.9025938019838581,
+            "coverage_low": 0.8945972616257556,
+            "coverage_high": 0.9105726532626126,
+            "worst_month": 0.8430555555555556,
+            "width": 0.3384326497411752
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.9606308915039122,
+            "coverage_low": 0.9510916491920564,
+            "coverage_high": 0.96934901936598,
+            "worst_month": 0.9097222222222222,
+            "width": 0.422486802836696
+          },
+          "rolling": {
+            "coverage": 0.9127595342246319,
+            "coverage_low": 0.8975530405822129,
+            "coverage_high": 0.9274747132108057,
+            "worst_month": 0.825,
+            "width": 0.3246700038347716
+          },
+          "aci": {
+            "coverage": 0.902655412482287,
+            "coverage_low": 0.8965091895892439,
+            "coverage_high": 0.9089706426544962,
+            "worst_month": 0.8666666666666667,
+            "width": 0.31240819656112045
+          }
+        }
+      }
+    }
+  },
+  "pm25": {
+    "gbdt": {
+      "random": {
+        "n_calibration": 4175,
+        "n_test": 16704,
+        "mae_over_iqr": 0.359622807800395,
+        "raw_band_coverage": 0.8033405172413793,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.9013409961685823,
+            "coverage_low": 0.8820203018325551,
+            "coverage_high": 0.9203512396694215,
+            "worst_month": 0.8083333333333333,
+            "width": 1.7463136563876647
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.9028975095785441,
+            "coverage_low": 0.8907638639358008,
+            "coverage_high": 0.9152069110073063,
+            "worst_month": 0.8083333333333333,
+            "width": 1.4836306567210156
+          }
+        }
+      },
+      "temporal": {
+        "n_calibration": 4175,
+        "n_test": 16704,
+        "mae_over_iqr": 0.4109699015350988,
+        "raw_band_coverage": 0.7637691570881227,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.9089439655172413,
+            "coverage_low": 0.8698526769673016,
+            "coverage_high": 0.941437597317044,
+            "worst_month": 0.6833333333333333,
+            "width": 2.0282837004405283
+          },
+          "rolling": {
+            "coverage": 0.8933189655172413,
+            "coverage_low": 0.8454635285662954,
+            "coverage_high": 0.9342496107318241,
+            "worst_month": 0.6888888888888889,
+            "width": 2.0073107448478402
+          },
+          "aci": {
+            "coverage": 0.8998443486590039,
+            "coverage_low": 0.8887261947538629,
+            "coverage_high": 0.9109489160378489,
+            "worst_month": 0.8375,
+            "width": 1.860998892770942
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.9206776819923371,
+            "coverage_low": 0.8970505449754462,
+            "coverage_high": 0.9423359084920349,
+            "worst_month": 0.8125,
+            "width": 1.6180185024136242
+          },
+          "rolling": {
+            "coverage": 0.9030172413793104,
+            "coverage_low": 0.8784195712061326,
+            "coverage_high": 0.9292789555635405,
+            "worst_month": 0.7541666666666667,
+            "width": 1.598482374002059
+          },
+          "aci": {
+            "coverage": 0.8997246168582376,
+            "coverage_low": 0.8904030422805125,
+            "coverage_high": 0.9087914720325787,
+            "worst_month": 0.8527777777777777,
+            "width": 1.617405603870238
+          }
+        }
+      }
+    },
+    "tabpfn": {
+      "random": {
+        "n_calibration": 4175,
+        "n_test": 16704,
+        "mae_over_iqr": 0.3360923552563843,
+        "raw_band_coverage": 0.9012212643678161,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.9001436781609196,
+            "coverage_low": 0.8815412025392262,
+            "coverage_high": 0.9184932327224816,
+            "worst_month": 0.8069444444444445,
+            "width": 1.664535682819383
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.9009219348659003,
+            "coverage_low": 0.888428254880824,
+            "coverage_high": 0.914480776140855,
+            "worst_month": 0.8166666666666667,
+            "width": 1.4028260414029403
+          }
+        }
+      },
+      "temporal": {
+        "n_calibration": 4175,
+        "n_test": 16704,
+        "mae_over_iqr": 0.3971321610165915,
+        "raw_band_coverage": 0.8503352490421456,
+        "absolute": {
+          "fixed": {
+            "coverage": 0.9118773946360154,
+            "coverage_low": 0.8782429033417174,
+            "coverage_high": 0.9409584980237152,
+            "worst_month": 0.7013888888888888,
+            "width": 2.068146255506607
+          },
+          "rolling": {
+            "coverage": 0.8957136015325671,
+            "coverage_low": 0.8508099772427836,
+            "coverage_high": 0.930054497544616,
+            "worst_month": 0.7013888888888888,
+            "width": 2.0376773431566155
+          },
+          "aci": {
+            "coverage": 0.9001436781609196,
+            "coverage_low": 0.8899868247694335,
+            "coverage_high": 0.9102886573242305,
+            "worst_month": 0.8555555555555555,
+            "width": 1.878088133681874
+          }
+        },
+        "cqr": {
+          "fixed": {
+            "coverage": 0.9105004789272031,
+            "coverage_low": 0.8884896394777818,
+            "coverage_high": 0.9306039645466523,
+            "worst_month": 0.8083333333333333,
+            "width": 1.521110390821476
+          },
+          "rolling": {
+            "coverage": 0.905411877394636,
+            "coverage_low": 0.8824979039405917,
+            "coverage_high": 0.9261603186010301,
+            "worst_month": 0.7875,
+            "width": 1.5253646543284891
+          },
+          "aci": {
+            "coverage": 0.9006824712643678,
+            "coverage_low": 0.8917819499341237,
+            "coverage_high": 0.9086731943945383,
+            "worst_month": 0.8597222222222223,
+            "width": 1.5760580484032947
+          }
+        }
+      }
+    }
+  }
+}
